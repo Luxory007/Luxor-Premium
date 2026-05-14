@@ -1,4 +1,4 @@
-import { Instagram, MessageCircle, Youtube, Mail } from "lucide-react";
+import { Instagram, MessageCircle, Facebook, Mail } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function Footer() {
@@ -33,13 +33,22 @@ export function Footer() {
 
           <div>
             <h4 className="font-display font-bold text-sm mb-4 uppercase tracking-wider">Contacto</h4>
-            <div className="flex gap-3">
-              {[Instagram, MessageCircle, Youtube, Mail].map((Icon, i) => (
-                <a key={i} href="#" aria-label="Social" className="inline-flex h-10 w-10 items-center justify-center rounded-full glass gold-border text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
-                  <Icon className="h-4 w-4" />
-                </a>
-              ))}
+            <div className="flex gap-3 mb-4">
+              <a href="https://www.instagram.com/luxor.store.premium/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="inline-flex h-10 w-10 items-center justify-center rounded-full glass gold-border text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+                <Instagram className="h-4 w-4" />
+              </a>
+              <a href="https://wa.me/573209403080" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="inline-flex h-10 w-10 items-center justify-center rounded-full glass gold-border text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+                <MessageCircle className="h-4 w-4" />
+              </a>
+              <a href="https://www.facebook.com/Luxor.Premium" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="inline-flex h-10 w-10 items-center justify-center rounded-full glass gold-border text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+                <Facebook className="h-4 w-4" />
+              </a>
+              <a href="mailto:Luxor.Store.Premium@gmail.com" aria-label="Email" className="inline-flex h-10 w-10 items-center justify-center rounded-full glass gold-border text-primary hover:bg-primary hover:text-primary-foreground transition-colors">
+                <Mail className="h-4 w-4" />
+              </a>
             </div>
+            <p className="text-xs text-muted-foreground break-all">Luxor.Store.Premium@gmail.com</p>
+            <p className="text-xs text-muted-foreground mt-1">WhatsApp: +57 320 940 3080</p>
           </div>
         </div>
 
