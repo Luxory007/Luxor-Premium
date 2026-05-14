@@ -75,11 +75,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Luxor Store Premium — Infoproductos Digitales para Crecer Online" },
       { name: "description", content: "Ebooks, cursos y recursos digitales premium para aprender, emprender y monetizar en internet. Acceso inmediato y contenido de élite." },
       { name: "author", content: "Luxor Store" },
-      { property: "og:title", content: "Luxor Store Premium — Infoproductos Digitales" },
-      { property: "og:description", content: "Ebooks, cursos y recursos digitales premium para crecer online." },
+      { property: "og:title", content: "Luxor Store Premium — Infoproductos Digitales para Crecer Online" },
+      { property: "og:description", content: "Ebooks, cursos y recursos digitales premium para aprender, emprender y monetizar en internet. Acceso inmediato y contenido de élite." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Luxor Store Premium — Infoproductos Digitales para Crecer Online" },
+      { name: "twitter:description", content: "Ebooks, cursos y recursos digitales premium para aprender, emprender y monetizar en internet. Acceso inmediato y contenido de élite." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/8n5akFgTnfWBTXeI2iXB0kAqZ2P2/social-images/social-1778799122371-Banner_de_lujo_-_Luxor_Store_Premium_-_2026.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/8n5akFgTnfWBTXeI2iXB0kAqZ2P2/social-images/social-1778799122371-Banner_de_lujo_-_Luxor_Store_Premium_-_2026.webp" },
     ],
     links: [
       {
