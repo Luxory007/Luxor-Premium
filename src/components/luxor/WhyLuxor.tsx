@@ -1,10 +1,10 @@
 import { Award, Lock, Layers, Rocket } from "lucide-react";
 
 const stats = [
-  { value: "12K+", label: "Estudiantes activos" },
-  { value: "189", label: "Productos digitales" },
-  { value: "4.9★", label: "Reseñas positivas" },
-  { value: "98%", label: "Satisfacción" },
+  { value: "+8K", label: "Estudiantes activos" },
+  { value: "87", label: "Productos digitales" },
+  { value: "4.8★", label: "Reseñas positivas" },
+  { value: "97%", label: "Satisfacción" },
 ];
 
 const reasons = [
