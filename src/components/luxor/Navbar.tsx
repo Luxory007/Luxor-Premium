@@ -8,6 +8,7 @@ const links = [
   { href: "#porque", label: "¿Por qué?" },
   { href: "#testimonios", label: "Testimonios" },
   { href: "#faq", label: "FAQ" },
+  { href: "#contacto", label: "Contacto" },
 ];
 
 export function Navbar() {

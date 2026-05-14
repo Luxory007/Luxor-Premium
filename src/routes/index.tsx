@@ -8,6 +8,7 @@ import { Testimonials } from "@/components/luxor/Testimonials";
 import { Transformation } from "@/components/luxor/Transformation";
 import { CTA } from "@/components/luxor/CTA";
 import { FAQ } from "@/components/luxor/FAQ";
+import { Contact } from "@/components/luxor/Contact";
 import { Footer } from "@/components/luxor/Footer";
 
 export const Route = createFileRoute("/")({
@@ -36,6 +37,7 @@ function Index() {
       <Transformation />
       <CTA />
       <FAQ />
+      <Contact />
       <Footer />
     </main>
   );
